@@ -4,8 +4,10 @@ using namespace std;
 int main()
 {
     int n;
-    cout << "Enter n number";
+    cout << "Enter n number\n";
     cin >> n;
+    if(n==1)
+     cout<<"Not possible";
     // upper part
     for (int i = 1; i <= n; i++) // for example enter n = 4
     {
